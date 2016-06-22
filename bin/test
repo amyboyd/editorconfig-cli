@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+go test github.com/amyboyd/editorconfig-cli/editorconfig $*
