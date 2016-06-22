@@ -2,6 +2,7 @@ package editorconfig
 
 import (
 	"github.com/go-ini/ini"
+	"path/filepath"
 	"regexp"
 	"strings"
 )
@@ -51,9 +52,11 @@ type FileConstrainedRuleSet struct {
 }
 
 func CreateConfigFileStruct(path string) ConfigFile {
+	absPath, _ := filepath.Abs(path)
+
 	ini, err := ini.Load(path)
 	if err != nil {
-		ExitBecauseOfInternalError("Could not parse " + path)
+		ExitBecauseOfInternalError("Could not parse " + absPath)
 	}
 
 	cf := ConfigFile{}

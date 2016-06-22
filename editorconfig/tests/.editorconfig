@@ -10,3 +10,6 @@ insert_final_newline = true
 
 [keep-trailing-spaces]
 trim_trailing_whitespace = false
+
+[**.go]
+indent_style = tabs
