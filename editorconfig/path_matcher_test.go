@@ -43,4 +43,7 @@ func TestConvertWildcardPatternToGoRegexp(t *testing.T) {
 
 	// Test everything together.
 	RunConvertWildcardPatternToGoRegexp(`*/**/[a-z]/{photos,videos}/{0..5}.*`, `[^/\\]+/.+/[a-z]/(photos|videos)/[-0-9]+\.[^/\\]+`)
+
+	// Test * on it's own. It should match every path.
+	RunConvertWildcardPatternToGoRegexp(`*`, `.`)
 }

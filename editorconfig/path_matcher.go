@@ -30,6 +30,13 @@ var metaCharsRegexp = []*regexp.Regexp{
 }
 
 func ConvertWildcardPatternToGoRegexp(pattern string) *regexp.Regexp {
+	if pattern == "*" {
+		// A single * seems to be universally used to mean every file, despite the official docs
+		// showing that ** is correct and * should only match top-level files. However, we adapt
+		// to what is used in the real world to be practical.
+		return regexp.MustCompile(".")
+	}
+
 	originalPattern := pattern
 
 	for _, r := range metaCharsRegexp {
