@@ -1,0 +1,1291 @@
+3dfbat 3DField command file
+4ge IBM Informix 4GL compiled source code
+4gl Informix 4GL language source code file
+8xk TI-82 Plus application file
+92x TI-92 macro
+a Ada programming language source code file
+a Assembly source code file
+a2w Alice program world file
+a3x AutoIt compiled script file
+a51 µVision Assembler source file
+a5r Adobe Authorware packaged file without runtime
+aar Google Android library project file
+abap ABAP source code file
+abc ABC programming language file
+abs GNU C Compiler ELF/DWARF format absolute file
+acm Visual SourceSafe modules file
+acr ACRobot script file
+action Mac OS X Automator action file
+actproj Microsoft Visual Studio Visual SourceSafe ACT project file
+actx DS Game Maker action description file
+acu Machine independent COBOL object file
+ad AxSys script file
+ada ADA language source code file
+adiumscripts Adium AppleScripts file
+ads ADS applications file
+adt COBOL project file
+aem Alphacam wire EDM parameter macro
+aep Activ E-Book project file
+afb Alphacam flame VB macro file
+agc Compiled script file
+agi Asterisk Gateway Interface file
+agls Adobe GoLive snippet file
+ahk AutoHotkey script file
+aia Adobe Illustrator action file
+aidl Google Android AIDL interface file
+aifb AIF Builder project
+airi Adobe AIR intermediate file
+akt Aksharamala keymap source file
+alb Alphacam laser VB macro file
+amf Autolog macro files
+amos AMOS Basic code file
+amw Alcorn McBride show controller
+ane Adobe AIR native extension file
+anjuta Anjuta DevStudio project file
+anm Infinity equation script file
+ap? LoseThos C+ source file
+apb Alphacam punch VB macro
+appcache HTML5 cache manifest file
+applescript AppleScript script file
+applet Eclipse IDE for Java Developers file
+appxmanifest Windows Store app source manifest file
+appxsym Microsoft Visual Studio Windows 8 application information file
+appxupload Microsoft Visual Studio Windows application upload file
+aps Microsoft Visual C++ binary version of resource file
+apt Almost Plain text file
+arb Alphacam router VB macro file
+aro SteelArrow script file
+arq BSM Action Request System client macro file
+artproj Artifacts project file
+arxml AUTOSAR XML file
+ary SmartStart scripting toolkit file
+as Adobe Flash ActionScript document
+as3 APL*PLUS source code file
+as? LoseThos Assembly source file
+asax ASP.NET application optional source file
+asc Adobe Flash ActionScript communications scripts
+ascx Active Server Pages web user control file
+asf APL*PLUS/PC shared file
+ash Turbo Assembler (TASM) header file
+asi Assembly language header
+asm Assembler source code
+asmx Active Server Plus Web Services source file
+asp Active Server Page script page
+asp Procomm Plus ASPect language script file
+asp+ + ASP.NET ASP+ file
+aspx Active Server Page Extended ASP.NET script
+asta Astah project file
+astx Adobe Story exported script file
+asz LoseThos assembly source file
+atl ATP Assembler source file
+atm Alphacam lathe parameter macro file
+atmn Automation Anywhere macro file
+atomsvc Atom Syndication file format
+atp Microsoft Visual Studio Visual SourceSafe ACT project file
+ats Advanced ETL Processor transformation script file
+au3 AutoIt v3 script
+au? LoseThos autofile
+aut AutoIt pre v3 script file
+autoplay AutoPlay Media Studio project file
+autosave GDevelop autosave
+avc Avid Media Composer script file
+ave ArcView Avenue script
+avsi Avisynth script file
+awd AWK language source code file
+awl Alternative Web Language programming language file
+axb Alpha5 Xbasic script
+axd ASP.NET web handler
+axe Annotated XML example file
+axs ActiveX script file
+b BASIC language source file
+b BuRg3r definition file
+b Modula-3 base program file
+ba_ Renamed BAT file
+bal Borland programming language source code file
+bas Basic source code
+bash Unix Shell Script (bash)
+bat Batch file (executable)
+bb Blitz Basic source code file
+bbc BBC BASIC for Windows data file
+bbf ScriptBasic binary file
+bbproject BBEdit project file
+bcc Borland C++ file/makefile
+bcf MapTek Vulcan script file
+bcp Borland C++ makefile
+bdh Silk Performer include file
+bdsproj Borland Developer Studio project file
+bdt BDT script
+beam Compiled Erlang Code file
+bet BETA source file
+beta Beta programming language source code
+bgm Basic4GL 3D object
+bhs Rise of Nations script file
+bi Microsoft Visual Basic for DOS include file
+bks Microsoft Windows 2000 scheduled backup script
+bml Binary Markup Language file
+bmo SIMATIC WinCC script file
+bp DataFlex business process object file
+bpk C++ Builder package file
+bpo DataFlex business process object
+bpr Borland C++ Builder XML project file
+brml Big Red Markup Language file
+brs Batchrun batch file
+brx BREW MP application resource file
+bs2 BASIC Stamp 2 code file
+bsc Microsoft Visual Studio Visual C++ source browser information file
+bsd Boundary Scan Description Language file
+bsh Bash file
+bsh BeanShell script file
+bsm Project file
+bsv Bluespec System Verilog file
+btproj Microsoft BizTalk Server project file
+btq Teradata Database query script file
+bufferedimage Java class
+build NAnt Build Tool file
+buildpath Eclipse XML build path file
+bur BuRg3r source code file
+bxl Turbo-Basic XL file
+bxml Bean XML file
+bxp BasicX-24 basic express compiler module list file
+bzs BlueZone script file
+c C/C++main source code file format
+c# # Microsoft Visual C# file
+c++ C++ source code file
+c-- Sphinx C-- language source code file
+c86 Computer Innovation C86 C language source code file
+capfile Ruby Capistrano instruction file
+cba Creative BASIC source code file
+cbl Cobol language source code file
+cbp Code::Blocks project
+cbs Cardbox macro script file
+cbs Comodo Backup script file
+cc C++ language source code file
+ccp CodeCharge Studio page file
+ccs CodeCharge Studio project file
+ccs TrialDirector clip script file
+ccs Visual CCScript script file
+cd Visual Studio class diagram file
+cdproj CppDepend project
+celx Celestia 3D rendering script file
+cfi CleverForm script file
+cfm Adobe ColdFusion template
+cfml Adobe ColdFusion Markup language file
+cfo Turbo C utilities C form object file
+cg nVidia CgFX file
+cgi Common Gateway Interface script file
+cgi Perl file
+cgx ARM RL-TCPnet HTTP Web Server XML web page update script
+chh C++ header file
+cl Common Lisp programming language source code file
+cla Java Class file
+class Gambas class source file
+classdiagram Microsoft Visual Studio class diagram file
+classpath Eclipse IDE JAVA project related file
+clips Coda for Mac clips file
+clj Clojure source code file
+clm Micrografx Picture Publisher macro file
+clojure Clojure source code
+clp CA-Clipper compiler script file
+cls JavaScript class definition file
+clw Microsoft Visual C++ MFC Class Wizard information file
+clx Macro ToolsWorks macro file
+cmake CMake module or script
+cmd Microsoft Windows command script
+cml Chemical Markup Language document file
+cmp SimCreator script file
+cms CaseMap case script file
+cnt 602Pro PC Suite macro file
+cob COBOL programming language source file
+cobol Micro-Focus Cobol
+cod Blackberry compiled Java code
+cod Microsoft C compiler output
+codasite Coda for Mac web project file
+coffee CoffeeScript script file
+cola Cola source code file
+command OS X Terminal script
+common Unix script file
+conf Configuration file
+configure Bash file
+confluence Eclipse Mylyn WikiText confluence file
+cord Microsoft Visual Studio script
+cos Creatures source code file
+coverage Microsoft Visual Studio code coverage file
+coveragexml Microsoft Visual Studio code coverage file
+cp CPIde source code file
+cp Xcode C++ source code file
+cp? LoseThos C+ source file
+cpb Comicino Studio project file
+cpp C++ main source code file format
+cpr INMOS transputer development system occam program code
+cprr Adobe Captivate XML script file
+cpy Cobol include file
+cpz LoseThos C+ source file
+creole Creole source file
+cs CLEO 3 custom script file
+cs Microsoft Visual Studio Visual C#.NET source data
+csb Corel PHOTO-PAINT script file
+csc CorelDRAW Corel SCRIPT script file
+csgrad Microsoft Visual Studio gradients file
+csh csh script file
+cshrc UNIX command file
+csp CaseWare Working Papers script page
+csp Crystal Enterprise Crystal Server page file
+cspkg Microsoft Windows Azure package file
+csproj Microsoft Visual Studio Visual C# project
+css CSS file
+csview Microsoft Visual Studio views file
+csx Microsoft Visual C# primary script file
+ctl Visual Basic control file (Active X control file)
+ctp CakePHP template file
+cu CUDA source code file
+cuh CUDA header file
+cus ConciseURI syntax file
+cx CodeMapper script file
+cxe Common XML Envelope file
+cxs ConciseXML format file
+cxx C++ main source code file format
+d D Programming Language source code file
+d4 Dataphor source file
+dadx Eclipse Document Access Definition Extension file
+das Atari Jaguar DSP assembly source file
+datasource Microsoft Visual Studio data source file
+db2tbl Microsoft Visual Studio DB2 table script
+db2tr Microsoft Visual Studio DB2 trigger script file
+db2vw Microsoft Visual Studio DB2 view script file
+dbg Debug file
+dbmdl Microsoft Visual Studio database project file
+dbml Microsoft Visual Studio Object Relational OR Designer file
+dbp Microsoft Visual Studio Visual C++ database project file
+dbpro DarkBASIC project file
+dc Dialect compiled script
+dcr Delphi component binary resource file
+ddp Delphi diagram page from compiler
+deb Debug script of DOS MS Debug
+dep Microsoft Visual Basic Setup Wizard dependency data
+depend Code::Blocks project support file
+derp DERP script file
+des V+ Visual Development System design file
+dev Dev-C++ project file
+devpak Dev-C++ developer package file
+dfb Data Flask formula file
+dfd ABC programming language dyadic functions file
+dfm C++ Builder 6 form file
+dfn Delphi definition file
+dgml Microsoft Visual Studio Directed Graph Markup Language file
+dgscript DigiGuide script
+dht DanTemplate HTML Template file
+dhtml Dynamic HTML file
+di D Programming Language source code
+dia Do It Again macro script file
+dic Microsoft Dynamics GP program source code
+dif Diff output from Diff command script for Patch command file
+diff Diff source file
+din DataEase installation script
+dlg C++ dialogue script file
+dlg Microsoft Windows dialog resource script file
+dmb DHTML Menu Builder project file
+dml Digital Moderation meeting script file
+do Java Servlet
+dob Microsoft Visual Basic user document form file
+dor ArchiCAD Geometric Description Language file
+dot Graphviz DOT language file
+dpd ABC programming language dyadic predicates file
+dpk Delphi package source file
+dpk Pascal file
+dplt AppleScript Droplet file
+dpq Clarion file
+dpr Delphi project file
+dpr Pascal file
+dqy Microsoft Excel ODBC query file
+drc Delphi resource string file
+ds DMDScript file
+ds DragonSpeak source file
+dsb WonderShare DVD Slideshow Builder project file
+dsd Document Structure Definition file
+dse DAZ Studio encrypted script file
+dso Microsoft Visual Studio workspace file
+dsp Microsoft Developer Studio project file
+dsq Corel Query Language file
+dsr Microsoft Visual Basic Active Designer file
+dsym Apple Xcode debug symbols file
+dsym ArchiCAD for MAC Geometric Description Language file
+dtd Document Type Definition format
+dto Directory Toolkit output file
+dtx Documented LaTeX source
+dvb Autodesk AutoCAD VBA source code
+dwarf Deebug with arbitrary record format file
+dwp Microsoft Office SharePoint portal server dashboard web part
+dwt Adobe Dreamweaver template
+dxl Domino XML file
+e Epsilon Editor EEL macro language file
+e Euphoria include file
+eaf ELAN Annotation Format file
+ebc MediaBASIC compiled project file
+ebm Attachmate Extra! macro file
+ebs E-Prime E-Run version 1 script file
+ebs Eventcorder script file
+ebs2 E-Prime E-Run script file
+ebx Rational Rose 98 compiled script file
+ecore Kermeta ecore diagram file
+ecorediag Kermeta ecore diagram information file
+editorconfig Editorconfig file
+edml EDML Parser-Library file
+efss Effective File Search script
+egg-info Python Egg file
+ejs Embedded JavaScript template
+ekm EXP macro file
+el Emacs Lisp programming language source code
+elc Compiled ELISP code file
+eld TradeStation EasyLanguage document
+emakefile Erlang make file
+emakerfile Erlang make file
+enml Evernote for Google Android note file
+entitlements Apple Mac OS X sandbox file
+epl Encirq \PL programming language source file
+epp Python Egg file
+ept Clarion for Windows embed points file
+eql Embedded SQL file
+erb Erubis script file
+erl Erlang source or script file
+erubis Erubis script file
+es SageCRM script file
+ev3p LEGO MINDSTORMS program file
+ew Euphoria code file
+exc Rexx language source code file
+exp Microsoft Linker input file
+exp Microsoft Visual C++ export file
+exprwdxsl Microsoft Expression Web sheet
+exsd Eclipse IDE extension point schema file
+exw Euphoria Windows source code file
+eze ErZorScript source file
+f Fortran source code
+f77 Fortran 77 language source file
+f90 Intel Fortran 90 language source file
+f95 Fortran 95 language source code file
+factorypath Eclipse factorypath file
+fas AutoCAD Fast-load Auto LISP file
+fasl Scheme file
+fbp6 FinalBuilder XML project file
+fbz6 FinalBuilder compressed project file
+fcg FastCGI script file
+fcgi FastCGI script file
+fdt Final Draft script attributes file
+fgb Valve SDK source file
+fil ZENworks application source file
+flm Flasm disassembled Flash ActionScript bytecode file
+fmb Oracle Forms binary source code
+for Font resource file
+for Fortran source file
+form Java form
+fountain Fountain syntax file
+fpi FPS Creator intelligence script file
+fpp Fortran source code file
+frj FreeForm-J project file
+frt GP-Forth language source code file
+fs Microsoft Visual F# source code
+fsb form-Z compiled script
+fsi Microsoft Visual F# Signature file
+fsscript Microsoft Visual Studio F# script file
+fsx Microsoft Visual Studio F# script file
+ftn Fortran language source code file
+fus GURU uninstall script
+fwaction Freeway Pro action file
+fwactionb Freeway Pro action bundle
+fwx FoxWeb script file
+fxcproj nVidia FX Composer project file
+fxl FaceFX batch file
+fxml Oracle FXML language source code
+g1m Casio Model 9860 BASIC Program file
+galaxy Blizzard Starcraft 2 Galaxy script file
+gas Atari Jaguar GPU assembly source file
+gbap GLBasic project file
+gbl Microsoft Visual Basic global definition file
+gc3 Golden Common Lisp source code file
+gch C++ precompiled header file
+gcl GNU Common Lisp file
+gcode G-code source file
+gdg GDevelop project
+gek GECK Papyrus Script Editor script
+gemfile Ruby RubyGems file
+geojson GeoJSON geographic format
+gfa GFA-BASIC tokenized source file
+gfe Grammatical Framework file
+ghc Visual Basic constant map file
+ghp GitHub Enterprise software package file
+git Git repository file
+gitignore Git ignore file
+gitmodules Git submodules file
+glade Glade project
+gld MPLAB C Compiler linker script file
+gls GLScript file
+gml Game Maker script file
+gml Graph Modeling Language file
+gml Graphlet Graphscript file
+gnt Micro Focus COBOL generated code
+gnumakefile GNU Make makefile
+go Google Go programming language source code file
+goc GEOS GOC source code file
+gp Gofer project source file
+gradle Android Studio build file
+graphml Graph Markup Language file
+greenfoot Greenfoot project file
+groovy Groovy programming language script file
+gs Geosoft montaj script file
+gs Google Apps Script script
+gsc Call of Duty script file
+gsk Geocaching Swiss Army Knife macro file
+gss Geometer's Sketchpad script file
+gst GAIN script text
+gsym ArchiCAD for Mac Geometric Description Language file
+gus Universal Score Poster script file
+gv Graphviz DOT language file
+gvy Groovy script file
+gxl Graph Exchange Language file
+gyp Google Chromium GYP input configuration file
+gypi Chrome/Chromium include file
+h C/C++ header file
+haml HTML abstraction markup language file
+has Haskell script file
+hbm Hibernate script file
+hbs JavaScript Handlebars.js file
+hc Header file
+hcw HTML Help Workshop Conversion Wizard macro
+hdf Hierarchical Data Format file
+hh C++ header file
+hic HicEst script file
+hid OpenOffice.org Help ID file
+history Eclipse IDE local history data
+hkp Mentor Graphics file
+hla High Level Assembler source file
+hlsl High Level Shader Language source code file
+hms HostMonitor script file
+hoic HOIC DDoS script file
+hom CNC10 CNC programming file
+hp? LoseThos C+ header file
+hpf High Performance FORTRAN file
+hpp C++ header file
+hrl Erlang source or script file
+hs Literate Haskell source code or script file
+hsdl Hierarchical Scan Description Language
+hse Adobe Dreamweaver snippet file
+hsm Assembly language header file
+htc HTML component file
+htd Adobe ExtendScript HTML file
+htm HTML Hypertext Markup Language web page file
+html HTML Hypertext Markup Language web page file
+htr Microsoft Windows NT password services script file
+hx Haxe source code file
+hxml haXe make file
+hxp haXe project file
+hxproj FlashDevelop Flash project file
+hxx C++ header file
+i APLAC source code data file
+i Microsoft Visual Studio preprocessed source file
+iadaction iAd Producer action template
+iadclass iAd Producer class description
+iadpage iAd Producer page template
+iadstyle iAd Producer style template
+iap Iguana Active Server active page script file
+idb Microsoft Visual Studio developer intermediate debug file
+ide Borland C++ Project file
+idl OMG CORBA interface definition language file
+idl Visual Studio Visual C++ interface definition library file
+ifp KnowledgeMan script file
+ig Modula-3 generic interface source
+ijs J Interpretor Script File
+ik Ioke script file
+ilk Microsoft Visual Studio Linker input file
+iml IntelliJ IDEA module file
+imp Pascal implementation file
+inc HTML server side include file
+inc Include file
+ini Configuration file
+ino Arduino sketch
+ino Inno Setup script file
+inp gretl script
+inp Oracle source code
+ins InstallShield script
+install Microsoft Expression Web PHP script
+io Io language script
+io Modula-3 object file
+ipb iPhone Perl script file
+ipch Microsoft Visual C++ Intellisense precompiled header file
+ipf Microsoft SMS installer script
+ipf Xilinx iMPACT project
+ipproj Microsoft Visual Studio InfoPath project file
+ipr IntelliJ project XML data
+ips IPIX IPScript file
+irc jIRCii script
+irobo RoboMind source code file
+isa Adobe Photoshop ImageReady action data
+iss Caseware IDEA IDEAScript file
+iss Inno Setup script file
+isu InstallShield uninstall script file
+isym ArchiCAD for Mac Geometric Description Language file
+itcl Cygwin iwidgets scripts file
+itmx XML Model Interchange Language file
+j Java source code
+j2 Jinja 2 file
+j3d Java 3D object file
+jacl IBM WebSphere server script file
+jad Java application descriptor file
+jade Jade programming language source code
+jak AHEAD Tool Suite file
+jardesc Eclipse JAR settings file
+jav Java language source code file
+java Java language source code
+javajet Eclipse JET Java template file
+jbi Motoman robot job file
+jbp Jabaco project
+jcl IBM Job Control Language file format
+jcs Java Control Source file
+jcw JCreator workspace file
+jdp BlackBerry JDE file
+jetinc Eclipse IDE template fragment file
+jgc JGCGen script
+jgs QWS3270 PLUS script file
+jks Java KeyStore file
+jl Julia source code file
+jml Java Modeling Language specification file
+jpage Eclipse Java scrapbook page file
+js ECMAScript language file
+js JavaScript source code script
+jsa JRun server application
+jsb JAWS script binary file
+jsc JavaScript config file
+jsdtscope Eclipse JavaScript development file
+jse JScript encoded script
+jsf Adobe Fireworks batch script
+json JavaScript object notation file
+jsonp JSON-with-padding source code file
+jsp JAVA Server page file
+jss JAWS script source file
+jsx Adobe After Effects script file
+jtb JTB JavaCC grammar file
+ju JU source code
+kbs Keyboard Script saved keystrokes file
+kcl Kyoto Common LISP source code
+kd Koara source code
+kdevprj KDevelop project file
+ked KEDIT profile and macro File
+kex KEDIT profile macro file
+kix KiXtart script file
+kmdi Kermeta file
+kml HP48 emulator Win48 script
+kmt Kermeta file
+kon Yahoo! Widget XML file
+ksc Korg Trinity script file
+ksh Unix shell script
+kst Olivetti Olitext Plus script
+kv Kivy language file
+l Lex language source file
+l Lisp language source
+l1i NutkungX script file
+lap Scheme source code
+lay Track Builder simulation compiler code
+lbi Adobe Dreamweaver library file
+lds Linux compile time header file
+ldz Microsoft Visual Studio DSM project file
+less LESS style sheet file
+lgt Logtalk programming language source code file
+lhs Literate Haskell programming language source code file
+li$ $ Microsoft Linker compressed input library file
+lib Microsoft Linker input library file
+licx Microsoft Visual Studio license file
+liquid Shopify Liquid template file
+lisp LISP translators file
+litcoffee Literate CoffeeScript file
+ll Links programming language template file
+llf IITM local language file
+lml LOGML file
+lmp ArchiCAD Geometric Description Language file
+lmv Adobe Flash source code
+lng Lahey Fortran language file
+lnk Linker response file
+lnp µVision Linker Input File
+lnx Linux specific makefile
+loc Localisation string resource header file
+login UNIX command file
+lol Lolcode source file
+lpr Lazarus project file
+lpx LaTeXPiX script file
+lrf Microsoft C/C++ linker response file
+lrs Lazarus Resource file
+ls1 Microsoft Winhelp source file
+lsp AutoLISP language source code
+lsp LISP source code
+lss LotusScript source code file
+lst Microsoft Visual Studio MASM listing file
+lua Lua script file
+luac Lua compiled source code
+lub Lua bytecode
+luca Luca templates
+lwmw Likno Web Modal Windows Builder file
+lxk COREX lexicon link-up file
+lxsproj Liquid XML Studio project file
+m Amiga E source module
+m Limbo interface declaration file
+m MatLab function, commands, script
+m Objective-C language source file
+m2 Modula 2 language source file
+m2r Avaya Mib2Rules Perl script file
+m3 Modula 3 programming language source code
+m4 M4 preprocessor macro file
+m51 ARM Keil Tools linker listing file
+m6m Mazatrol language M640M NC unit file
+mab Markaby script file
+mac Macro script
+magik Magik source code file
+mak Make file
+make Makefile
+maki Winamp MAKI compiled script file
+mako Mako tamplate file
+maml Microsoft Assistance Markup Language
+map Server side image map file
+mash Java file
+master ASP Master page file
+mat Poser 3D pose file
+matlab Matlab script file
+mbas mikroBasic source code file
+mbs Mailbag Assistant script file
+mbtemmplate ModelBaker custom template directory
+mc Microsoft Windows localized message table resource file
+mc Modula-3 M3CG intermediate language data
+mc6 Microsoft C makefile
+mcml Microsoft Windows Media Center MCML file
+mcp CodeWarrior project file
+mcw Macaw project
+md Markdown file
+mdf Fldigi macro file
+mdp Microsoft Visual C++ Visual J++ MAK file (old project workspace)
+mec Maximus MECCA source file
+mediawiki Mediawiki source file
+mel Maya Embedded Language
+mf Java manifest file
+mfa ClickTeam source file
+mfcribbon-ms -ms Microsoft Visual Studio Visual C++ ribbon resource code file
+mfl Mozilla Firefox XUL fastload file
+mg Modula-3 generic module source file
+mhl Media Hash List file
+mingw32 Mingw compiler file
+mk Makefile file
+mkb Marmalade SDK project file
+mke Microsoft Windows SDK make file
+ml ML language source code file
+ml OCaml source code file
+mli Camomile individual module file
+mli F# source code
+mln Alchemy source file
+mlv LabVIEW Mathscript file
+mly OCaml ocamlyacc input file
+mm Apple Xcode core Objective-C program source code file
+mmb Oracle Forms menu binary source code file
+mmch CodeWarrior compiled hdr file
+mmh Dragon Age Model Mesh Heirarchy file
+mmjs Adobe JavaScript document file
+mnd AutoCAD Menu Compiler file
+mo Modula-3 object file
+moc MOCHA Java script file
+mod Fortran module file
+mod PHP source code
+module Microsoft Expression Web PHP script
+mom Xcode compiled core database data model file format
+mp? LoseThos Compiler map file
+mpd Monadic predicates
+mpkt MOPEKS trial file
+mpm Corel WordPerfect MathPlan Macro file
+mqt MetaQuotes Language 4 MQL4 template file
+mrc mIRC script
+mrd MathRevolt Infinity document file
+mrl MRLR Multimedia Retrival Markup Language data
+mrs Corel WordPerfect Macro resource file
+ms 3D Studio Max script source code
+ms Modula-3 intermediate assembly file
+msc C makefile
+mscr CuteFTP script file
+msct MOPEKS script file
+msdev Microsoft Visual C+ make file
+msh1 Microsoft Shell script file
+msh2xml Windows PowerShell script file
+msha Microsoft Help library help manifest file
+msil Microsoft Intermediate Language file
+msl MAINSAIL source code file
+mss Manuscript text file
+mst Visual Test source file
+mst Windows Installer transform script
+msvc Microsoft Visual C++ compiler makefile
+msym ArchiCAD for MAC Geometric Description Language file
+mtp EasyBuilder 8000 project file
+mvba Bentley MicroStation VBA project file
+mvpl Microsoft Visual Programming Language project
+mw MediaWiki structured text file
+mwp STEP7-Micro WIN program file
+mx Modula-3 linker information
+mxe Corel Quattro Pro startup macro file
+myapp Microsoft Visual Studio application XML file
+mzp Autodesk 3D Studio Max MAXScript zip package
+nas Nasal script file
+nbin Compiled NASL script file
+nbk NovaBACKUP script file
+ncb Microsoft Developer Studio non-compiled browse file
+ncx Navigation Control file for XML
+nes Nessus attack scripting language key file
+netproject netfabb Basic project file
+nhs NHibernate file
+nk NUKE script file
+nlc Nero Linux compilation file
+nlpj Navicat for SQlite batch job
+nmpj Navicat for MariaDB batch job
+nms Virtools graphical script file
+nopj Navicat for Oracle batch job
+npi dBASE Application Generator source file
+nppj Navicat for PostgreSQL batch job
+nrs NovaBACKUP restore script file
+nsconfig nsconfig authentication file
+nse Nmap security scanner scripting engine file
+nsi NSIS Nullsoft Scriptable Install System script file
+nspj Navicat for SQL Server batch job file
+nsx AppStudio project
+nt Windows NT command script file
+nunit NUnit test project
+nupkg NuGet source code package file
+nvi nVidia graphics card driver settings file
+nxc NXC Not eXactly C source code file
+o Object file
+obj Intel (Object Module Format) relocatable object module
+obj Microsoft Visual Studio object file
+obr Borland C++ object browser data
+ocamlmakefile Caml programming language makefile
+ocb Origin precompiled Origin C file
+odc Microsoft Office database connection file
+odh Microsoft Visual Studio Interface Definition Language file
+odl Visual C++ ODL type library source file
+ogl ATI Overlay source code file
+ogr OGR C++ open source library
+ogs Origin script file
+okm Open Knowledge Management script file
+opt Psion Organiser OPL source
+opv OpenPanorama Visit file
+oqy Microsoft Excel OLAP query file
+orl Object-Relational Language file
+osg OSGJS JSON input file
+ow Free Pascal for Windows object file
+owl OWL (Obfuscated Weird Language) source code file
+ox Ox object-oriented Matrix programming language file
+p Python pickle file
+pag Visual Basic property PAGe file
+param CASTEP scripts file
+pas Delphi unit source file
+pas SIMATIC WinCC script file
+pawn Pawn scripting language source code
+pb PureBasic source code
+pba PowerBASIC language source code file
+pbi PowerBASIC include file
+pbl PowerBASIC library file
+pbl PowerBuilder source code library
+pbp Perl Builder file
+pbx5script Personal Backup script file
+pbxbtree Apple Xcode auto-complete file
+pbxproj Apple Project Builder Xcode project file format
+pbxscript Personal Backup script file
+pcd Microsoft Visual Test file
+pch Microsoft Visual Studio Visual C++ precompiled header
+pcs KDevelop persistent code store file
+pdb Microsoft Linker input database file
+pdb Microsoft Visual Studio Visual C++ program database
+pdml Packet Details Markup Language file
+pdo Microsoft Access Package and Deployment Wizard script
+pem Corel WordPerfect program editor macro file
+perl Perl source file
+pf1 SmartWare project source code file
+pf2 SmartWare project source code file
+pf? SmartWare project source file
+pfx PFXplus application source code
+pgm Signature program
+pgml Precision Graphics Markup Language file format
+ph Perl header file
+php PHP script
+php4 PHP script
+php5 PHP script
+php7 PHP script
+phtml PHP Web page
+pickle Python Pickle file
+pjt Project file (Rational Rose/Visual C++)
+pjx Visual FoxPro project
+pkb Oracle PL/SQL package body file
+pl Perl script language source code
+pl PROLOG language source code file
+pl7 PL7-07 application file
+plac plac script file
+playground Apple Xcode playground file
+pli PL/I program source code file
+plog PLog programming language file
+plx PERL programming language script file
+pm Perl Code script module
+pm Pidgin instant messenger module file
+pml Palm Markup Language source code
+pmp PHPMaker project file
+pnproj Programmer's Notepad project file
+pnpt Programmer's Notepad project template file
+poc Pocomail PocoScript file
+pod Perl POD-formated text
+poix Point of interest exchange file
+policy Opera policy file
+pou PLCEdit program organisation unit
+pp Free Pascal source code file
+pp Puppet source code file
+ppa Microsoft PowerPoint 97 to 2003 add-in file
+ppam Microsoft PowerPoint macro-enabled Open XML add-in
+ppml Personalized Print Markup Language file
+ppo CA Clipper preprocessor output file
+pr7 EuroSYSTEMS macro
+prg Program source fil
+prg RAPID program file
+prg RPG Toolkit program script
+pri COREX orthographic transcription file
+pri Qt Project include file
+prl Perl script file
+pro IDL programming language source code file
+pro Prolog programming language source code file
+propertiesjet Eclipse IDE template file
+proto Google Protocol Buffers buffer file
+ps1 Windows PowerShell file
+ps2 Microsoft Windows Shell script file
+psc1 Microsoft Windows PowerShell console file
+psl Accellera property specification language source code
+psl PowerTerm script language file
+psm1 Microsoft Windows PowerShell script module file
+psml Packet Summary Markup Language file
+pspscript Corel Paint Shop Pro script file
+psu PS2 YABASIC file
+ptb PubTech BatchWorks script file
+ptl Python template language file
+ptx NVIDIA CUDA parallel thread execution assembly language file
+ptxml Microsoft Windows DLL XML related file
+pun AQScript file
+pwo Portable Website Object file
+pxi Pyrex header file
+pxml OpenPandora XML file
+py Python script language source code
+pyc Compiled Python script source code
+pym PYM Python preprocessor macro file
+pyo Python compiled file
+pyt Python declaration file
+pyw Python GUI source script file
+pyx Pyrex source code file
+qac C++ Dedicated PROGRUN file
+qcf Microsoft QBasic coordinates file
+qdl QDL source code file
+qf FORTRAN embedded QUEL file
+qml QT meta language file
+qpr Dinkum embedded C++ abridged library
+qry Database Query file
+qs Qt script file
+qsc Kaleidagraph script file
+qvs QlikView Script file
+qx Quexal source code
+r R script file
+rake Ruby makefile
+rakefile Ruby makefile
+rapc Java 2 ME unit file
+rb Fuzzy rule based definition file
+rb Ruby on Rails class
+rb Ruby script
+rbc IBM Rembo-C script file
+rbf Microsoft Windows rollback script
+rbp REALbasic project file
+rbs Microsoft Windows Installer Rollback Script file
+rbt Lego MINDSTORMS NXT program file
+rbvcp Real Studio project file
+rbw Ruby file
+rbx Ruby programming language source code file
+rc Microsoft Visual Studio Visual C/C++ resource script file
+rc2 Microsoft Visual Studio Visual C/C++ non-compilable resource script file
+rc3 Visual C resource file
+rcc Resource script file
+rdf Oracle report binary source
+rdf Resource Description Framework RSS feed
+rdoc RubyDoc script file
+rdoff Netwide assembler file
+re Python Regular Expressions source code file
+reb REBOL script file
+rej Mercurial reject file
+res Microsoft C, C++ compiled resource file
+res Microsoft Linker resource compiler input file
+resjson Microsoft Windows 8 Metro JavaScript file
+resources Microsoft Visual Studio resource file
+resx Microsoft Visual Studio .NET XML resource template file
+rexx Rexx language source code file
+rfs RealFlow script file
+rfx Modula M2SDS file
+rgs InstallShield Script for Windows Registry
+rguninst RealArcade uninstall script file
+rh C++ resource header file
+rip Telegrafx Remote Imaging Protocol
+rkt Racket information module file
+rml Redline Markup Language file
+rmn Oracle Recovery Manager script file
+rnw Sweave source file
+rob Wintask compiled program file
+robo RoboRealm robo script file
+ror Resources of a Resource file
+rpg The RPG programming language file
+rpj RealPlayer JavaScript file
+rpo IBM XL C/C++ for Linux compiler file
+rptproj Microsoft Visual Studio 2008 report project file
+rpy Python script file
+rpyc Ren'Py game engine compiled script file
+rpym Ren'Py module file
+rqb RapidQ quellcode file
+rqy Microsoft Excel OLE DB query file
+rrc BlackBerry Java resource content file
+rrh BlackBerry resource header file
+rsp Rapport script file
+rss Really Simple Syndication - RSS file format
+rss Rockwell Logix 500 SLC-5 software file
+rssc Claris Resolve script file
+rsym ArchiCAD for Mac Geometric Description Language file
+rts Resource Tuner Console script file
+rub JQuery rules file
+rule Visual C++ project rules file
+run UNIX Shell Installer installation archive
+rvb Rhinoceros 3D Visual Basic script file
+rvt Apache Rivet Tcl file
+rws Borland C++ resource workshop symbol file
+rxs ooRexx script file
+rxs RSIGuard RSIScript file
+s Source code
+s43 IAR assembly source file
+s4e Airplay SDK header file
+s5d Siemens Step 5 source code file
+saas Sass Indented Syntax file
+sal SQL Application Language file
+sami Synchronized Accessible Media Interchange file format
+sar Squeak package file
+sas SAS source code file
+sasf NASA spacecraft activity sequence file
+sass Syntactically Awesome Stylesheets indented syntax file
+sax Sedona Framework XML application file
+sb Microsoft Small Basic source code file
+sbh IBM SQABasic header file
+sbr Microsoft Visual Studio Visual C++ source browser intermediate file
+sbs SPSS script file
+sbt Scala Build Tool file
+sc Corel Paradox PAL script file
+sc Ingres Embedded SQL/C source file
+sca Scala InfoChannel script file
+scala Scala source file
+scar SCAR script file
+scb Command & Conquer World Builder script file
+scb Scala InfoChannel published script
+scm GIMP script file
+scm PDP-10 source compare file
+scm Scheme language source code file
+scpt AppleScript script file
+scr Script file
+scr Wintask uncompiled program file
+script Microsoft WinHelp related file
+scriptterminology AppleScript script terminology file
+scs Lotus ScreenCam script file
+scss Syntactically Awesome Stylesheets syntax file
+sct ARM uVision IDE scatter file
+sct Microsoft Windows script component
+scz Wingz script file
+sda OneSpace Designer assembly file
+sdef AppleScript dictionary scripting definition
+sdi Interface definition file
+sdl Corel Paradox script file
+sdsb Spybot compiled script
+seam Seam Framework JAVA servlet file
+seestyle Coda for Mac style sheet file
+seman Xtext semantics file
+ser Java serialized object file
+sfm SF programming language main source code file
+sfr SF programming language repository file
+sfx Self-extracting compressed archive file
+sh Unix Bourne Shell (Bash) file
+shfb Sandcastle Help File Builder project
+shfbproj Sandcastle Help File Builder project file
+shit Bourne Shell Server Page file
+sid OpenOffice.org slot id file
+sim Telix simple script source file
+simba Simba script
+simple Simple Compiler source code file
+sit PDP-10 Fortran-77 compiler source file
+sjava Synchronous Java source code file
+sjc Sothink JavaScript Web Scroller definition file
+sl S-Lang language source code file
+sl Sam Spade startup script
+slim Slim script
+sln Microsoft Visual Studio solution file
+slogo StarLogo programming project file
+slogt StarLogo template file
+sm ScriptMaker script file
+sma C/C++ source code file
+smali Google Android Smali Assembly Language developer data
+smd Scheme file
+sml Simple Markup Language file
+sml SMIL Synchronized Multimedia Integration Language file
+smm Ami Pro macro file
+smw SIMPL Windows source file
+smw Stenn Media web script
+smx SMX file
+snapx Snapform XML form
+snippet Microsoft Visual Studio code snippet file
+sp? LoseThos C+ source file
+spr Microsoft FoxPro form source file
+sps VAX/VMS source code
+spx Microsoft FoxPro compiled form source file
+sqlproj Microsoft Visual Studio SQL server project file
+src Generally source code
+src Source resource string file
+srz DataFlex source file
+ss Sam Spade script file
+ss Scheme source code
+ss SilverStripe source code
+ssc HP Library and Tape Tools script
+sscs Saropa Smart Copy script file
+ssi HTML with server side includes
+ssq ODBC script file
+st LittleSmalltalk language source code file
+startlet Start++ script
+stl C++ standard template library
+stm HTML server side include file
+stuffit11task StuffIt scheduler task
+styl Stylus CSS script
+sus Synergy Accounts update script file
+svc Simple Visual Compiler file
+svn-base Apache Subversion base file
+svo STATISTICA macro file
+svx Statistica macro file
+sw Free Pascal assembler file
+swg SWAG Pascal Snippets (SWAG Reader)
+swift Apple Swift programming language source code file
+swt Visual Basic Setup Wizard template file
+sxs SAS Stat Studio module source code file
+sxv Action Repeater macro file
+synw-proj SynWrite project
+t Tads source file
+t Timber compiler source code
+tab Microsoft SQL table script file
+tag COREX file
+tal Typed Assembly Language file
+targets MSBuild targets file
+tatxtt thinBasic template
+tbasic thinBasic script file
+tbasicc thinBasic script file
+tbasicx thinBasic script
+tcl SLIDE: Scene Language for Interactive Dynamic Environments file
+tcl TCL script source code
+tcsh Unix shell script file
+tcz PSTextMerge script
+tcz Tiny Core Linux script file
+tdo Xilinx text design output file
+tea Tea source file
+tec PDP-10 TECO macro file
+tem Borland C++ Turbo Editor Macro Language script file
+textile Eclipse IDE WikiText document file
+textile RedCloth script file
+tgml Tecumseh Group Markup Language file
+thor Thor file
+thtml THTML file
+ti Timber compiler file
+tig COREX syntactic annotation file
+tik Game texture script file
+tk Tk language script
+tkp MicroImages SML script standalone application file
+tla The Temporal Logic of Actions file
+tlh Typelib generated C/C++ header file
+tli Typelib generated C/C++ inline file
+tmh Trace message header file
+tpl PHP template file format
+tpm TextPad macro file
+tpr TIGCC IDE project file
+tql Microsoft SQL Server query analyser header file
+tra True BASIC applet file
+tracwiki Eclipse IDE WikiText file
+transcriptstyle Apple iChat transcript style file
+trt Team Sports Scheduling System report template file
+tru True Basic source
+ts0 tio32 script file
+tsq ODBC script file
+tst TagScanner text transform script file
+ttinclude Microsoft Visual Studio text template
+tur Turing program source code file
+twig Twig source file
+txl TXL programming language file
+txml commerce eXtensible Markup Language file
+txt Xtext file
+txx Insight Segmentation and Registration Toolkit file
+udf SQL user defined function script file
+ufdl Universal Forms Description Language file
+uit UIX XML Template file
+uix uiXML page file
+ulp EAGLE script file
+umlclass Java UML class model file
+ump UModel project file
+usi UsiXML UI description file
+uvprjx µVision project
+uvproj µVision4 project file
+uvprojx µVision project
+v Verilog source code file
+v3s Visual3D pipeline file
+v4e Microsoft Windows Script Host file
+vap Microsoft Visual Studio Analyzer project file
+vb Microsoft Visual Studio Visual Basic script
+vba Visual Basic VBA module file
+vbe filevbe Visual Basic encoded script
+vbg Microsoft Visual Basic compatible project group file
+vbhtml Microsoft Visual Studio ASP.NET web page
+vbi IntelliCAD VBA script file
+vbp Microsoft Visual Basic project
+vbproj Microsoft Visual Studio Visual Basic project file
+vbs Visual Basic script
+vbscript Visual Basic script
+vbw Microsoft Visual Studio Visual Basic workspace file
+vbx Microsoft Visual Basic Extension file
+vc1 Microsoft Visual C makefile
+vc6 Visual C++ make file
+vce Visual CE class type file
+vcp Microsoft Visual Studio Visual C++ project file
+vcproj Microsoft Visual Studio Visual C++ project
+vcwin32 Visual C make file
+vcxproj Microsoft Visual Studio Visual C++ project
+vd PwrDev visual designer project file
+vddproj Microsoft Visual Studio deployment project file
+vdp Microsoft Visual Studio deployment project file
+vdproj Microsoft Visual Studio Visual C++ deployment project file
+vim Vim script file
+vip Microsoft Visual Studio Visual Basic InterDev project file
+viw Microsoft SQL Server view script file
+vjp Microsoft Visual J++ project file
+vjsproj Microsoft Visual J# project
+vls Visual Localize script
+vlx AutoCAD AutoLISP macro application file
+vmx Microsoft Visual Studio Visual C++ macro project file
+vpc ViziGen source code file
+vpi Virtual Pascal OS/2 unit file
+vpl vplot source code
+vps Visual Pinball script file
+vrm Visual REXX language source code file
+vrp Watcom VXRexx project file
+vsixmanifest Microsoft Visual Studio VSIX manifest file
+vsmacros Microsoft Visual Studio binary-based macro project
+vssscc Visual Studio solution source control file
+vstemplate Microsoft Visual Studio project template file
+vtm Adobe ColdFusion Visual Tool Markup Language query file
+vtml Adobe ColdFusion Visual Tool Markup Language file
+vup Microsoft Visual Studio Visual C++ utility project file
+vxml VoiceXML source file
+w OpenEdge Architect source code file
+w32 Compiler makefile
+wam WebAction macro file
+wax ProComm Plus compiled script file
+wbf Microsoft Windows batch file
+wbt WinBatch script file
+wdi WINDEV component description file
+wdk WINDEV component file
+wdl World definition language script
+wdproj Microsoft Visual Studio web deployment project file
+wdw WINDEV window file
+wdx9 Microsoft Word for Mac wizard file
+wfs Microsoft Windows installation script
+wiki Wiki markup source file
+win ArchiCAD Geometric Description Language file
+win32manifest Microsoft Win32 manifest file
+wis IBM wIntegrate basic script file
+wli WL intermediate data
+wml Wireless Markup Language document (WAP)
+wmlsc Wireless Markup Language (WAP) bytecode script file
+wmw Likno Web Modal Windows Builder file
+wod Apple WebObjects web application method file
+wowproj AddOn Studio for World of Warcraft project file
+wpj Watcom C/C++ project file
+wpk Corel WordPerfect macro file
+wpm 602Pro PC Suite macro file
+wpm Corel WordPerfect macro file
+ws Microsoft Windows script
+wsc Microsoft Windows scripting component file
+wsc SGML Standard Generalized Markup Language file
+wsdd Apache Axis Web Service Deployment Descriptor (WSDD) file
+wsdl Microsoft Visual Studio Web Service Description Language file
+wsf Microsoft Windows scripting file
+wsh Microsoft Windows Scripting Host file
+wsil IBM Web Services Inspection Language file
+wsp Microsoft Fortran Powerstation workspace file
+wspd WebsitePainter for Mac project
+wxi WiX include file
+wxl WiX localization file
+wxs WiX source file
+x Lex language source code
+xaml Extensible Application Markup Language format
+xamlx Microsoft Visual Studio XAMLX document
+xap Xbox dashboard script file
+xbap XAML Browser Application file
+xbd JAXB schema file
+xblr Output raw XBRL file
+xcl XTree for Windows script file
+xcodeproj XCode project file
+xcp XLNT script command file
+xct ExtremeCopy task file
+xda Sencha Architect project file
+xds OpenGL Performer script file
+xfm OmniForm XML file format
+xib Apple Interface Builder file
+xig XML Instance Generator file
+xin OmniMark include file
+xjb OEPE JAXB Wizard bindings file
+xla Microsoft Excel add-in
+xlm Microsoft Excel macro
+xlm3 Microsoft Excel 3 for Mac Macro file
+xlm4 Microsoft Excel 4 for Mac Macro file
+xlv Microsoft Excel VBA module file
+xme GME file
+xml XML document file
+xmla XML for Analysis source file
+xmsc FileMaker script
+xmss FileMaker script
+xn Cygnus ld-scripts file
+xnf Extensible Numerical file
+xojo_xml_project Xojo XML project
+xoml Microsoft Visual Studio XOML file
+xpb XPB! Basic source code file
+xpgt EPUB XML stylesheet page template
+xqr XML Query Language for DB2 file
+xr Cygnus ld-scripts file
+xrc wxWidgets wxPython resource file
+xsc Microsoft Visual Studio XSC file
+xscscpt Transcribe! script
+xsd XML schema description
+xsl XML eXtensible stylesheet
+xslt XSL transform file
+xsql Oracle XSQL Servlet server side file
+xtx xText source file
+xtxt Xtext file
+xui Xbox 360 skin file
+xul Firefox XML User Interface Language file
+xweb4asax Microsoft Expression Web server app
+xweb4htt Microsoft Expression Web hypertext template
+xweb4stm Microsoft Expression Web STM document
+xys XYplorer script file
+yajl YAJL script file
+yaml YML script file
+yml YML script file
+ywl YoWindow data file
+zasm Zero Compiler assembly source file
+zbi Zebra ZBI-Developer project file
+zcls Zero Compiler class file
+zero Zero Compiler project file
+zfd ABC Zeroadic functions file
+zfrm Zero form designer file
+zh_tw Netscape Communicator java classes file
+zms Zephyr ECLIPSE Server macro script file
+zpd ABC zeroadic predicates file
+zpk Zend Studio deployment application package
+zpl ZEMAX programming language file
+zrx ZOC REXX script file
+zs Zephyr Eclipse Server script
+zsc EditPad zMUD script file
+zsh Unix shell script
+zsrc Zero source file
+zws ZiLOG Developer Studio workspace file

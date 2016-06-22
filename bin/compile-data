@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+go-bindata -o editorconfig/bindata.go -pkg editorconfig data/
