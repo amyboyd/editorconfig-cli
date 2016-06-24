@@ -61,7 +61,7 @@ func CheckIndentStyleRule(ruleValue string, line string) *LineCheckResult {
 	}
 
 	if strings.ToLower(ruleValue) == "tab" {
-		if IsIndentedWithSpaces(line) {
+		if IsIndentedWithSpaces(line) && !strings.HasPrefix(line, " *") {
 			return &LineCheckResult{isOk: false, messageIfNotOk: "starts with space instead of tab"}
 		} else if IsIndentedWithMixedTabsAndSpaces(line) && !IsIndentedWithTabsThenCommentLine(line) {
 			return &LineCheckResult{isOk: false, messageIfNotOk: "indented with mix of tabs and spaces instead of just tabs"}

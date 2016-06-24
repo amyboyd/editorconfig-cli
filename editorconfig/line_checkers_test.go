@@ -46,7 +46,9 @@ func TestCheckIndentStyleRule(t *testing.T) {
 	ExpectFail("\t ", "tab", f, t, "indented with mix of tabs and spaces instead of just tabs")
 
 	// Allow comments like /**\n\t *\n\t */
-	ExpectPass("\t *line", "tab", f, t)
+	ExpectPass("\t * comment 1", "tab", f, t)
+	ExpectPass("\t\t * comment 2", "tab", f, t)
+	ExpectPass(" * comment 3", "tab", f, t)
 
 	ExpectFail("  line", "dinosaurs", f, t, "invalid value for indent_style: dinosaurs")
 }
