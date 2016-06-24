@@ -22,6 +22,11 @@ func CreateCliApp() *cli.App {
 			Usage:  "List rules that match a given file",
 			Action: RulesCommand,
 		},
+		{
+			Name:   "check",
+			Usage:  "Validate files",
+			Action: CheckCommand,
+		},
 	}
 
 	return app
