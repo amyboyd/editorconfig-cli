@@ -1,17 +1,8 @@
 package editorconfig
 
 /*
- * Converts a string from a .editorconfig file to a Go-compatible regex, according to the rules
- * documented under "Wildcard Patterns" here:
- * http://docs.editorconfig.org/en/master/editorconfig-format.html#patterns
- *
- * *	Matches any string of characters, except path separators (/)
- * **	Matches any string of characters
- * ?	Matches any single character
- * [seq]	Matches any single character in seq
- * [!seq]	Matches any single character not in seq
- * {s1,s2,s3}	Matches any of the strings given (separated by commas, can be nested)
- * {num1..num2}	Matches any integer numbers between num1 and num2, where num1 and num2 can be either positive or negative
+ * Converts a string from a .editorconfig file to a Go-compatible regex. Refer to the documentation
+ * in `docs/file-pattern-matchers.md`
  */
 
 import (
@@ -31,9 +22,8 @@ var metaCharsRegexp = []*regexp.Regexp{
 
 func ConvertWildcardPatternToGoRegexp(pattern string) *regexp.Regexp {
 	if pattern == "*" {
-		// A single * seems to be universally used to mean every file, despite the official docs
-		// showing that ** is correct and * should only match top-level files. However, we adapt
-		// to what is used in the real world to be practical.
+		// As documented in `docs/file-pattern-matchers.md`, we deviate from the official
+		// documentation here and make * match every file.
 		return regexp.MustCompile(".")
 	}
 
