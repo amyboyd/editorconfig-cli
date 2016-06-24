@@ -28,6 +28,10 @@ func GetRulesToApplyToSourcePath(sourcePath string, cfs []ConfigFile) map[string
 
 	delete(rules, "root")
 
+	if indentStyleValue, _ := rules["indent_style"]; indentStyleValue == "tab" {
+		delete(rules, "indent_size")
+	}
+
 	return rules
 }
 
