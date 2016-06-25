@@ -39,3 +39,31 @@ func TestCheckEndOfLineRule(t *testing.T) {
 	ExpectFileFail("Aardvark\rBunny\r", "crlf", f, t, "should use CRLF for new lines but contains CR")
 	ExpectFileFail("Aardvark\r\nBunny\r\n", "lf", f, t, "should use LF for new lines but contains CRLF")
 }
+
+func TestCheckInsertFinalNewLineRule(t *testing.T) {
+	f := CheckInsertFinalNewLineRule
+
+	// Empty files should never error in this rule.
+	ExpectFilePass("", "true", f, t)
+	ExpectFilePass("", "false", f, t)
+
+	ExpectFilePass("\n", "true", f, t)
+	ExpectFilePass("\r", "true", f, t)
+	ExpectFilePass("a\n", "true", f, t)
+	ExpectFilePass("a\r", "true", f, t)
+	ExpectFilePass("a\r\n", "true", f, t)
+	ExpectFilePass("a\r\n", "true", f, t)
+	ExpectFilePass("a\nb\n", "true", f, t)
+	ExpectFileFail("a", "true", f, t, "should end with an empty line but it does not")
+	ExpectFileFail("a\nb", "true", f, t, "should end with an empty line but it does not")
+	ExpectFileFail("a\rb", "true", f, t, "should end with an empty line but it does not")
+
+	ExpectFilePass("a", "false", f, t)
+	ExpectFilePass("a\nb", "false", f, t)
+	ExpectFileFail("\n", "false", f, t, "should not end with an empty line but it does")
+	ExpectFileFail("\r", "false", f, t, "should not end with an empty line but it does")
+	ExpectFileFail("\r\n", "false", f, t, "should not end with an empty line but it does")
+	ExpectFileFail("a\r\n", "false", f, t, "should not end with an empty line but it does")
+
+	ExpectFileFail("anything", "rabbits", f, t, "insert_final_new_line value should be true or false, is: rabbits")
+}
