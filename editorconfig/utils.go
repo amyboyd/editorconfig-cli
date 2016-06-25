@@ -24,6 +24,12 @@ func ContainsString(haystack []string, needle string) bool {
 	return false
 }
 
+var lineEndingsRegexp = regexp.MustCompile("(\r\n|\n|\r)")
+
+func SplitIntoLines(s string) []string {
+	return lineEndingsRegexp.Split(s, -1)
+}
+
 func ExitBecauseOfInternalError(err string) {
 	fmt.Println(err)
 	os.Exit(2)
