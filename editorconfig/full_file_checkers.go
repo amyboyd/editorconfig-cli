@@ -1,6 +1,7 @@
 package editorconfig
 
 import (
+	"github.com/saintfish/chardet"
 	"regexp"
 	"strings"
 )
@@ -8,8 +9,7 @@ import (
 var fullFileCheckers = map[string]FullFileChecker{
 	"end_of_line":          CheckEndOfLineRule,
 	"insert_final_newline": CheckInsertFinalNewLineRule,
-	// @todo - add checker for charset.
-	// "charset":              CheckCharsetRule,
+	"charset":              CheckCharsetRule,
 }
 
 type FullFileChecker func(ruleValue string, fileContent string) *FullFileCheckResult
@@ -94,4 +94,31 @@ func CheckInsertFinalNewLineRule(ruleValue string, fileContent string) *FullFile
 	}
 
 	return &FullFileCheckResult{isOk: false, messageIfNotOk: "unexpected condition"}
+}
+
+func CheckCharsetRule(ruleValue string, fileContent string) *FullFileCheckResult {
+	// Valid rules values are "latin1", "utf-8", "utf-8-bom", "utf-16be" or "utf-16le".
+	if ruleValue != "latin1" && ruleValue != "utf-8" && ruleValue != "utf-8-bom" && ruleValue != "utf-16be" && ruleValue != "utf-16le" {
+		return &FullFileCheckResult{isOk: false, messageIfNotOk: "charset value is invalid: " + ruleValue}
+	}
+
+	detector := chardet.NewTextDetector()
+
+	bestGuess, err := detector.DetectBest([]byte(fileContent))
+	if err != nil {
+		ExitBecauseOfInternalError(err.Error())
+	}
+
+	actual := strings.ToLower(bestGuess.Charset)
+
+	if ruleValue == actual {
+		return &FullFileCheckResult{isOk: true}
+	}
+
+	if ruleValue == "utf-8" && strings.HasPrefix(actual, "iso-8859-") {
+		// iso-8859-* is a subset of utf-8.
+		return &FullFileCheckResult{isOk: true}
+	}
+
+	return &FullFileCheckResult{isOk: false, messageIfNotOk: "expected " + ruleValue + " but is: " + actual}
 }
