@@ -1,11 +1,11 @@
 package editorconfig
 
 import (
-	"bufio"
 	"fmt"
 	"github.com/codegangsta/cli"
-	"os"
+	"io/ioutil"
 	"strconv"
+	"strings"
 )
 
 func CheckCommand(c *cli.Context) error {
@@ -14,36 +14,49 @@ func CheckCommand(c *cli.Context) error {
 		return err
 	}
 
+	if len(files) == 0 {
+		ExitBecauseOfInternalError("No files to check in " + strings.Join(c.Args(), ", "))
+	}
+
 	configs := FindConfigFiles(files)
 
 	for _, f := range files {
-		fh, err := os.Open(f)
+		rules := GetRulesToApplyToSourcePath(f, configs)
+		if len(rules) == 0 {
+			continue
+		}
+
+		fileContentInBytes, err := ioutil.ReadFile(f)
 		if err != nil {
 			ExitBecauseOfInternalError("Could not read file: " + f)
 		}
+		fileContent := string(fileContentInBytes)
 
-		// @todo - add "full file checkers" for end_of_line, insert_final_newline and charset.
-
-		scanner := bufio.NewScanner(fh)
-		rules := GetRulesToApplyToSourcePath(f, configs)
-
-		lineNo := 0
-		for scanner.Scan() {
-			line := scanner.Text()
-			lineNo++
-
-			for ruleName, ruleValue := range rules {
-				if lineCheckers[ruleName] == nil {
-					continue
-				}
-
-				result := lineCheckers[ruleName](ruleValue, line)
+		// Run full-file checkers.
+		for ruleName, ruleValue := range rules {
+			if fullFileChecker, ok := fullFileCheckers[ruleName]; ok {
+				result := fullFileChecker(ruleValue, fileContent)
 				if !result.isOk {
-					fmt.Println(f + ": line " + strconv.Itoa(lineNo) + ": " + ruleName + ": " + result.messageIfNotOk)
-					// Don't show more than 1 error per line.
-					break
+					fmt.Println(f + ": " + ruleName + ": " + result.messageIfNotOk)
 				}
 			}
+		}
+
+		// Run line checkers.
+		lines := SplitIntoLines(fileContent)
+		lineNo := 1
+		for _, line := range lines {
+			for ruleName, ruleValue := range rules {
+				if lineChecker, ok := lineCheckers[ruleName]; ok {
+					result := lineChecker(ruleValue, line)
+					if !result.isOk {
+						fmt.Println(f + ": line " + strconv.Itoa(lineNo) + ": " + ruleName + ": " + result.messageIfNotOk)
+						// Don't show more than 1 error per line.
+						break
+					}
+				}
+			}
+			lineNo++
 		}
 	}
 
