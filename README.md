@@ -10,6 +10,11 @@ super fast.
 The features documented below all work, but some additonal features remain to be done
 (see `docs/to-do.md`).
 
+This project's homepage is on GitHub at [github.com/amyboyd/editorconfig-cli](https://github.com/amyboyd/editorconfig-cli)
+
+To downloads the pre-built executables, head to the [releases page](https://github.com/amyboyd/editorconfig-cli/releases/tag/0.1.0)
+and look under the "Downloads" title.
+
 Features
 --------
 
