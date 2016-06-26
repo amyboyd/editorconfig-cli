@@ -13,19 +13,22 @@ func CreateCliApp() *cli.App {
 
 	app.Commands = []cli.Command{
 		{
-			Name:   "ls",
-			Usage:  "List files that will be matched by the arguments you give",
-			Action: LsCommand,
+			Name:      "ls",
+			Usage:     "List files that will be matched by the arguments you give",
+			Action:    LsCommand,
+			ArgsUsage: "[PATH1] [PATH2...]",
 		},
 		{
-			Name:   "rules",
-			Usage:  "List rules that match a given file",
-			Action: RulesCommand,
+			Name:      "rules",
+			Usage:     "List rules that match a given file",
+			Action:    RulesCommand,
+			ArgsUsage: "[PATH1] [PATH2...]",
 		},
 		{
-			Name:   "check",
-			Usage:  "Validate files",
-			Action: CheckCommand,
+			Name:      "check",
+			Usage:     "Validate files",
+			Action:    CheckCommand,
+			ArgsUsage: "[PATH1] [PATH2...]",
 		},
 	}
 

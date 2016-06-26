@@ -1,11 +1,26 @@
 .editorconfig CLI
 =================
 
+This CLI tool is built to automate validating and applying [.editorconfig](http://editorconfig.org/)
+rules against files and directories.
+
+It is built in Go, so installation is as simple as downloading one file and running it. It is also
+super fast.
+
+The features documented below all work, but some additonal features remain to be done
+(see `docs/to-do.md`).
+
 Features
 --------
 
+* Command `editorconfig-cli check [PATH]` - check if the files within `[PATH]` satisfy the rules
+defined in `.editorconfig`. You can use this in a continuous integration process, like Jenkins,
+to fail pull requests that don't satify the rules. Or you could use this in a Git pre-commit hook.
+
+* Command `editorconfig-cli fix [PATH]` - fix the files within `[PATH]` to satify the rules.
+
 * Command `editorconfig-cli ls [PATH]` - list the files found within `[PATH]` and the .editorconfig
-  files that would be applied to them.
+files that would be applied to them.
 
 * Command `editorconfig-cli rules [PATH]` - list the rules that would be applied to `[PATH]`.
 
@@ -13,6 +28,16 @@ Features
 needed!
 
 * It's open source.
+
+* It's super fast. The `check` command finishes small codebases in well under 1 second, and a 250k
+line codebase is checked in under 3 seconds.
+
+How to contribute
+-----------------
+
+There is some work still to be done. Refer to the file `docs/to-do.md` for a list.
+
+To run the tests, execute `bin/test`.
 
 License
 -------
