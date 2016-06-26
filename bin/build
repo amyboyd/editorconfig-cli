@@ -1,2 +1,10 @@
 #!/usr/bin/env bash
-go build
+
+TARGET=build/
+GO=/usr/local/go/bin/go
+
+GOOS=linux "$GO" build -i -o "$TARGET/editorconfig-linux"
+GOOS=darwin "$GO" build -i -o "$TARGET/editorconfig-mac"
+GOOS=windows "$GO" build -i -o "$TARGET/editorconfig.exe"
+
+echo "Built files are in '$TARGET' directory"
