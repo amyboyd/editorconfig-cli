@@ -22,3 +22,35 @@ func TestFixEndOfLineRule(t *testing.T) {
 		t.Error("Converting to CRLR did not work, got: " + GetErrorWithLineBreaksVisible(toCrlfResult))
 	}
 }
+
+func TestFixInsertFinalNewLineRule(t *testing.T) {
+	input1 := "a\nb\nc\n"
+	result1 := FixInsertFinalNewLineRule("true", input1)
+	if result1 != input1 {
+		t.Error("String was changed despite already having a line at the end")
+	}
+
+	input2 := "a\rb\rc\r\r"
+	result2 := FixInsertFinalNewLineRule("true", input2)
+	if result2 != input2 {
+		t.Error("String was changed despite already having a line at the end")
+	}
+
+	input3 := "a\r\nb\r\nc\r\n"
+	result3 := FixInsertFinalNewLineRule("true", input3)
+	if result3 != input3 {
+		t.Error("String was changed despite already having a line at the end")
+	}
+
+	input4 := "a\nb"
+	result4 := FixInsertFinalNewLineRule("true", input4)
+	if result4 != "a\nb\n" {
+		t.Error("Line was not added at the end")
+	}
+
+	input5 := "a\r\nb\r\nc\r\n\n\n\r"
+	result5 := FixInsertFinalNewLineRule("false", input5)
+	if result5 != "a\r\nb\r\nc" {
+		t.Error("Trailing lines were not removed")
+	}
+}

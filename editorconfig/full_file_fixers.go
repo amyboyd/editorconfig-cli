@@ -29,3 +29,24 @@ func FixEndOfLineRule(ruleValue string, fileContent string) string {
 
 	return fileContent
 }
+
+/**
+ * This must be called before FixEndOfLineRule so the \n added will be converted to whatever the
+ * 'end_of_line' rule dictates.
+ */
+func FixInsertFinalNewLineRule(ruleValue string, fileContent string) string {
+	ruleValueLowercase := strings.ToLower(ruleValue)
+
+	if ruleValueLowercase == "true" && !endsWithFinalNewLineRegexp.MatchString(fileContent) {
+		return fileContent + "\n"
+	}
+
+	if ruleValueLowercase == "false" {
+		for endsWithFinalNewLineRegexp.MatchString(fileContent) {
+			fileContent = endsWithFinalNewLineRegexp.ReplaceAllString(fileContent, "")
+		}
+		return fileContent
+	}
+
+	return fileContent
+}
