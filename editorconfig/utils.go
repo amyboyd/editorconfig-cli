@@ -47,3 +47,10 @@ func ExitBecauseOfInternalError(err string) {
 	fmt.Println(err)
 	os.Exit(2)
 }
+
+func GetErrorWithLineBreaksVisible(s string) string {
+	s = lfRegexp.ReplaceAllString(s, `\n`)
+	s = crRegexp.ReplaceAllString(s, `\r`)
+	s = crlfRegexp.ReplaceAllString(s, `\r\n`)
+	return s
+}
