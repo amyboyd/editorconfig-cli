@@ -2,7 +2,6 @@ package editorconfig
 
 import (
 	"github.com/saintfish/chardet"
-	"regexp"
 	"strings"
 )
 
@@ -19,10 +18,6 @@ type FullFileCheckResult struct {
 	isOk           bool
 	messageIfNotOk string
 }
-
-var lfRegexp = regexp.MustCompile(`\n`)
-var crRegexp = regexp.MustCompile(`\r`)
-var crlfRegexp = regexp.MustCompile(`\r\n`)
 
 func CheckEndOfLineRule(ruleValue string, fileContent string) *FullFileCheckResult {
 	// Valid rules values are "lf", "cr", or "crlf". The values are case insensitive.
@@ -62,8 +57,6 @@ func CheckEndOfLineRule(ruleValue string, fileContent string) *FullFileCheckResu
 
 	return &FullFileCheckResult{isOk: true}
 }
-
-var endsWithFinalNewLineRegexp = regexp.MustCompile(`(\n|\r|\r\n)$`)
 
 func CheckInsertFinalNewLineRule(ruleValue string, fileContent string) *FullFileCheckResult {
 	// Valid rules values are "true" or "false". The values are case insensitive.

@@ -1,7 +1,6 @@
 package editorconfig
 
 import (
-	"regexp"
 	"strconv"
 	"strings"
 )
@@ -22,13 +21,6 @@ type LineCheckResult struct {
 	isOk           bool
 	messageIfNotOk string
 }
-
-var hasIndentationRegexp = regexp.MustCompile(`^[\t ]`)
-var hasNoIndentationRegexp = regexp.MustCompile(`^([^\t ]|$)`)
-var indentedWithMixedTabsAndSpacesRegexp = regexp.MustCompile(`^(\t+ +| +\t+)`)
-var indentedWithTabsRegexp = regexp.MustCompile(`^\t+`)
-var indentedWithTabsThenCommentLineRegexp = regexp.MustCompile(`^\t+ \*`)
-var indentedWithSpacesRegexp = regexp.MustCompile(`^ +`)
 
 func HasIndentation(s string) bool {
 	return hasIndentationRegexp.MatchString(s)
