@@ -2,9 +2,11 @@ package editorconfig
 
 import (
 	"fmt"
+	"io/ioutil"
 	"os"
 	"path/filepath"
 	"regexp"
+	"strings"
 )
 
 var filePathSeparatorRegex = regexp.QuoteMeta(string(filepath.Separator))
@@ -53,4 +55,17 @@ func GetErrorWithLineBreaksVisible(s string) string {
 	s = crRegexp.ReplaceAllString(s, `\r`)
 	s = crlfRegexp.ReplaceAllString(s, `\r\n`)
 	return s
+}
+
+func MustGetFileAsString(path string) string {
+	inBytes, err := ioutil.ReadFile(path)
+	if err != nil {
+		ExitBecauseOfInternalError("Could not read file: " + path)
+	}
+
+	return string(inBytes)
+}
+
+func GetNumberOfLeftSpaces(s string) int {
+	return len(s) - len(strings.TrimLeft(s, " "))
 }
