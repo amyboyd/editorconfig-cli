@@ -37,6 +37,18 @@ needed!
 * It's super fast. The `check` command finishes small codebases in well under 1 second, and a 250k
 line codebase is checked in under 3 seconds.
 
+Use in a Git pre-commit hook
+----------------------------
+
+```
+editorconfig-cli check src/ tests/
+if [[ $? != '0' ]]; then
+    echo 'Code is not aligned with .editorconfig'
+    echo 'Review the output and commit your fixes'
+    exit 1
+fi
+```
+
 How to contribute
 -----------------
 
