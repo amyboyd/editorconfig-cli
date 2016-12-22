@@ -32,3 +32,16 @@ func TestGetRulesToApplyToSourcePathWhenNoRulesShouldApply(t *testing.T) {
 		t.Error("No rules should be applied for the file")
 	}
 }
+
+func TestGetRulesToApplyToSourcePathWhenPathShouldBeIgnored(t *testing.T) {
+	result := GetRulesToApplyToSourcePath(
+		"some-file-to-ignore.ignored",
+		[]ConfigFile{
+			CreateConfigFileStruct("tests/.editorconfig"),
+		},
+	)
+
+	if len(result) != 0 {
+		t.Error("No rules should be applied for the file")
+	}
+}

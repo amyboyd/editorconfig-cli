@@ -26,6 +26,10 @@ func GetRulesToApplyToSourcePath(sourcePath string, cfs []ConfigFile) map[string
 		}
 	}
 
+	if isIgnored, _ := rules["ignore"]; isIgnored == "true" {
+		return make(map[string]string)
+	}
+
 	delete(rules, "root")
 
 	if indentStyleValue, _ := rules["indent_style"]; indentStyleValue == "tab" {

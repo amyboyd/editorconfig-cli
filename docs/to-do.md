@@ -2,8 +2,6 @@
 
 * Add a fixer for the 'indent_style' rule.
 
-* Add a non-standard rule to ignore directories.
-
 * Optimize speed and memory usage.
 
 * Document how to install.

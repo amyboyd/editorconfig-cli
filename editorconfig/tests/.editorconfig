@@ -13,3 +13,6 @@ trim_trailing_whitespace = false
 
 [**.go]
 indent_style = tabs
+
+[**.ignored]
+ignore = true
