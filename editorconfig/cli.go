@@ -30,6 +30,12 @@ func CreateCliApp() *cli.App {
 			Action:    CheckCommand,
 			ArgsUsage: "[PATH1] [PATH2...]",
 		},
+		{
+			Name:      "fix",
+			Usage:     "Fix invalid files",
+			Action:    FixCommand,
+			ArgsUsage: "[PATH1] [PATH2...]",
+		},
 	}
 
 	return app

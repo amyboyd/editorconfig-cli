@@ -32,7 +32,7 @@ func TestCheckIndentStyleRule(t *testing.T) {
 	ExpectPass(" line", "space", f, t)
 	ExpectPass(" ", "space", f, t)
 	ExpectPass("  line", "space", f, t)
-	ExpectFail(" \tline", "space", f, t, "indented with mix of tabs and spaces instead of just tabs")
+	ExpectFail(" \tline", "space", f, t, "indented with mix of tabs and spaces instead of just spaces")
 	ExpectFail("\tline", "space", f, t, "starts with tab instead of space")
 	ExpectFail("\t line", "space", f, t, "starts with tab instead of space")
 

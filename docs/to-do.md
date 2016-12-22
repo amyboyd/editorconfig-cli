@@ -1,6 +1,8 @@
 * Test on Windows.
 
-* Implement fixers and a `fix` command.
+* Add a fixer for the 'indent_style' rule.
+
+* Add a non-standard rule to ignore directories.
 
 * Optimize speed and memory usage.
 
@@ -11,3 +13,5 @@
 
 * Add an example of how to use the `check` command in a continuous integration build or in a Git
 pre-commit hook.
+
+

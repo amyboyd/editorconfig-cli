@@ -17,11 +17,15 @@ var lfRegexp = regexp.MustCompile(`\n`)
 var crRegexp = regexp.MustCompile(`\r`)
 var crlfRegexp = regexp.MustCompile(`\r\n`)
 
+var endsWithTabsAndSpacesRegexp = regexp.MustCompile("[ \t]+$")
 var endsWithFinalNewLineRegexp = regexp.MustCompile(`(\n|\r|\r\n)$`)
 
 var hasIndentationRegexp = regexp.MustCompile(`^[\t ]`)
 var hasNoIndentationRegexp = regexp.MustCompile(`^([^\t ]|$)`)
+
+// @todo - this doens't match "space tab space" or "tab space tab"
 var indentedWithMixedTabsAndSpacesRegexp = regexp.MustCompile(`^(\t+ +| +\t+)`)
+
 var indentedWithTabsRegexp = regexp.MustCompile(`^\t+`)
 var indentedWithTabsThenCommentLineRegexp = regexp.MustCompile(`^\t+ \*`)
 var indentedWithSpacesRegexp = regexp.MustCompile(`^ +`)

@@ -16,10 +16,10 @@ var lineCheckers = map[string]LineChecker{
 
 type LineChecker func(ruleValue string, line string) *LineCheckResult
 
-// @todo - add fixers to each instance of LineCheckResult.
 type LineCheckResult struct {
 	isOk           bool
 	messageIfNotOk string
+	fixer          LineFixer
 }
 
 func HasIndentation(s string) bool {
@@ -66,7 +66,7 @@ func CheckIndentStyleRule(ruleValue string, line string) *LineCheckResult {
 		if IsIndentedWithTabs(line) {
 			return &LineCheckResult{isOk: false, messageIfNotOk: "starts with tab instead of space"}
 		} else if IsIndentedWithMixedTabsAndSpaces(line) {
-			return &LineCheckResult{isOk: false, messageIfNotOk: "indented with mix of tabs and spaces instead of just tabs"}
+			return &LineCheckResult{isOk: false, messageIfNotOk: "indented with mix of tabs and spaces instead of just spaces"}
 		} else {
 			return &LineCheckResult{isOk: true}
 		}
@@ -94,7 +94,11 @@ func CheckIndentSizeRule(ruleValue string, line string) *LineCheckResult {
 	}
 
 	if strings.HasPrefix(line, "\t") {
-		return &LineCheckResult{isOk: false, messageIfNotOk: "should be indented with spaces but is indented with tabs"}
+		return &LineCheckResult{
+			isOk:           false,
+			messageIfNotOk: "should be indented with spaces but is indented with tabs",
+			fixer:          FixTabIndentationToSpaces,
+		}
 	}
 
 	// Indented with spaces. Ensure the number of spaces is divisible by the rule value, but also
@@ -108,11 +112,19 @@ func CheckIndentSizeRule(ruleValue string, line string) *LineCheckResult {
 		return &LineCheckResult{isOk: true}
 	}
 	if IsIndentedWithTabs(trimmedLine) {
-		return &LineCheckResult{isOk: false, messageIfNotOk: "indented with mix of spaces and tabs instead of just spaces"}
+		return &LineCheckResult{
+			isOk:           false,
+			messageIfNotOk: "indented with mix of spaces and tabs instead of just spaces",
+			fixer:          FixMixedIndentationToSpaces,
+		}
 	}
 	if HasIndentation(trimmedLine) {
-		leftSpaces := len(line) - len(strings.TrimLeft(line, " "))
-		return &LineCheckResult{isOk: false, messageIfNotOk: "starts with " + strconv.Itoa(leftSpaces) + " spaces which does not divide by " + ruleValue}
+		leftSpaces := GetNumberOfLeftSpaces(line)
+		return &LineCheckResult{
+			isOk:           false,
+			messageIfNotOk: "starts with " + strconv.Itoa(leftSpaces) + " spaces which does not divide by " + ruleValue,
+			fixer:          FixUndividableIndentationToNearestSpacesAmount,
+		}
 	}
 
 	return &LineCheckResult{isOk: true}
@@ -129,7 +141,7 @@ func CheckTrimTrailingWhitespaceRule(ruleValue string, line string) *LineCheckRe
 
 	trimmed := strings.TrimRight(line, " \t")
 	if len(line) != len(trimmed) {
-		return &LineCheckResult{isOk: false, messageIfNotOk: "line has trailing whitespace"}
+		return &LineCheckResult{isOk: false, messageIfNotOk: "line has trailing whitespace", fixer: FixTrimTrailingWhitespaceRule}
 	}
 
 	return &LineCheckResult{isOk: true}

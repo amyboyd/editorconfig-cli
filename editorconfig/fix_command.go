@@ -3,11 +3,12 @@ package editorconfig
 import (
 	"fmt"
 	"github.com/codegangsta/cli"
+	"os"
 	"strconv"
 	"strings"
 )
 
-func CheckCommand(c *cli.Context) error {
+func FixCommand(c *cli.Context) error {
 	files, err := FindSourceFiles(c.Args())
 	if err != nil {
 		return err
@@ -26,18 +27,27 @@ func CheckCommand(c *cli.Context) error {
 		}
 
 		fileContent := MustGetFileAsString(f)
+		hasChanged := false
 
-		// Run full-file checkers.
+		// Run full-file checkers and fixers.
 		for ruleName, ruleValue := range rules {
 			if fullFileChecker, ok := fullFileCheckers[ruleName]; ok {
 				result := fullFileChecker(ruleValue, fileContent)
-				if !result.isOk {
-					fmt.Println(f + ": " + ruleName + ": " + result.messageIfNotOk)
+				if result.isOk {
+					continue
+				}
+
+				if result.fixer != nil {
+					fileContent = result.fixer(ruleValue, fileContent)
+					hasChanged = true
+					fmt.Println(f + ": " + ruleName + ": fixed")
+				} else {
+					fmt.Println(f + ": " + ruleName + ": cannot fix automatically")
 				}
 			}
 		}
 
-		// Run line checkers.
+		// Run line checkers and fixers.
 		lines := SplitIntoLines(fileContent)
 		lineNo := 1
 		for _, line := range lines {
@@ -52,6 +62,15 @@ func CheckCommand(c *cli.Context) error {
 				}
 			}
 			lineNo++
+		}
+
+		if hasChanged {
+			fileHandler, err := os.Open(f)
+			if err != nil {
+				fmt.Println("Could not write to " + f)
+			}
+			fileHandler.WriteString(fileContent)
+			fmt.Println("Wrote to " + f)
 		}
 	}
 

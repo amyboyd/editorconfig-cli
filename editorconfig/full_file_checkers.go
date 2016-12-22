@@ -13,10 +13,10 @@ var fullFileCheckers = map[string]FullFileChecker{
 
 type FullFileChecker func(ruleValue string, fileContent string) *FullFileCheckResult
 
-// @todo - add fixers to each instance of FullFileCheckResult.
 type FullFileCheckResult struct {
 	isOk           bool
 	messageIfNotOk string
+	fixer          FullFileFixer
 }
 
 func CheckEndOfLineRule(ruleValue string, fileContent string) *FullFileCheckResult {
@@ -29,29 +29,29 @@ func CheckEndOfLineRule(ruleValue string, fileContent string) *FullFileCheckResu
 
 	if ruleValueLowercase == "lf" {
 		if crlfRegexp.MatchString(fileContent) {
-			return &FullFileCheckResult{isOk: false, messageIfNotOk: "should use LF for new lines but contains CRLF"}
+			return &FullFileCheckResult{isOk: false, messageIfNotOk: "should use LF for new lines but contains CRLF", fixer: FixEndOfLineRule}
 		}
 		if crRegexp.MatchString(fileContent) {
-			return &FullFileCheckResult{isOk: false, messageIfNotOk: "should use LF for new lines but contains CR"}
+			return &FullFileCheckResult{isOk: false, messageIfNotOk: "should use LF for new lines but contains CR", fixer: FixEndOfLineRule}
 		}
 	}
 
 	if ruleValueLowercase == "cr" {
 		if crlfRegexp.MatchString(fileContent) {
-			return &FullFileCheckResult{isOk: false, messageIfNotOk: "should use CR for new lines but contains CRLF"}
+			return &FullFileCheckResult{isOk: false, messageIfNotOk: "should use CR for new lines but contains CRLF", fixer: FixEndOfLineRule}
 		}
 		if lfRegexp.MatchString(fileContent) {
-			return &FullFileCheckResult{isOk: false, messageIfNotOk: "should use CR for new lines but contains LF"}
+			return &FullFileCheckResult{isOk: false, messageIfNotOk: "should use CR for new lines but contains LF", fixer: FixEndOfLineRule}
 		}
 	}
 
 	if ruleValueLowercase == "crlf" {
 		fileContent := crlfRegexp.ReplaceAllString(fileContent, "")
 		if lfRegexp.MatchString(fileContent) {
-			return &FullFileCheckResult{isOk: false, messageIfNotOk: "should use CRLF for new lines but contains LF"}
+			return &FullFileCheckResult{isOk: false, messageIfNotOk: "should use CRLF for new lines but contains LF", fixer: FixEndOfLineRule}
 		}
 		if crRegexp.MatchString(fileContent) {
-			return &FullFileCheckResult{isOk: false, messageIfNotOk: "should use CRLF for new lines but contains CR"}
+			return &FullFileCheckResult{isOk: false, messageIfNotOk: "should use CRLF for new lines but contains CR", fixer: FixEndOfLineRule}
 		}
 	}
 
@@ -74,7 +74,7 @@ func CheckInsertFinalNewLineRule(ruleValue string, fileContent string) *FullFile
 		if endsWithFinalNewLineRegexp.MatchString(fileContent) {
 			return &FullFileCheckResult{isOk: true}
 		} else {
-			return &FullFileCheckResult{isOk: false, messageIfNotOk: "should end with an empty line but it does not"}
+			return &FullFileCheckResult{isOk: false, messageIfNotOk: "should end with an empty line but it does not", fixer: FixInsertFinalNewLineRule}
 		}
 	}
 
@@ -82,7 +82,7 @@ func CheckInsertFinalNewLineRule(ruleValue string, fileContent string) *FullFile
 		if !endsWithFinalNewLineRegexp.MatchString(fileContent) {
 			return &FullFileCheckResult{isOk: true}
 		} else {
-			return &FullFileCheckResult{isOk: false, messageIfNotOk: "should not end with an empty line but it does"}
+			return &FullFileCheckResult{isOk: false, messageIfNotOk: "should not end with an empty line but it does", fixer: FixInsertFinalNewLineRule}
 		}
 	}
 
