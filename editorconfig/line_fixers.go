@@ -53,3 +53,11 @@ func FixUndividableIndentationToNearestSpacesAmount(ruleValueNumberOfSpaces stri
 
 	return line
 }
+
+func FixTrimTrailingWhitespaceRule(ruleValue string, line string) string {
+	if strings.ToLower(ruleValue) != "true" {
+		return line
+	}
+
+	return endsWithTabsAndSpacesRegexp.ReplaceAllString(line, "")
+}

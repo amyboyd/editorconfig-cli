@@ -70,3 +70,21 @@ func TestFixUndividableIndentationToNearestSpacesAmount(t *testing.T) {
 		t.Error("Unexpected result: " + result)
 	}
 }
+
+func TestFixTrimTrailingWhitespaceRule(t *testing.T) {
+	if FixTrimTrailingWhitespaceRule("true", "") != "" {
+		t.Error()
+	}
+
+	if FixTrimTrailingWhitespaceRule("true", " a b c") != " a b c" {
+		t.Error()
+	}
+
+	if FixTrimTrailingWhitespaceRule("true", "abc    \t\t   \t \t \t   ") != "abc" {
+		t.Error()
+	}
+
+	if FixTrimTrailingWhitespaceRule("false", "abc    \t\t   \t \t \t   ") != "abc    \t\t   \t \t \t   " {
+		t.Error()
+	}
+}
